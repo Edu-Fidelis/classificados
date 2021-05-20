@@ -1,0 +1,18 @@
+<%= form_for @ad do |form| %>
+    <div>
+        <%= form.label :title %>]
+        <%= form.text_field :title %>
+    </div>
+    <div>
+        <%= form.label :description %>]
+        <%= form.text_area :description %>
+    </div>
+    <div>
+        <%= form.label :price %>]
+        <%= form.text_field :price %>
+    </div>
+
+    <div>
+        <%= form.submit %>
+    </div>
+<% end %>
